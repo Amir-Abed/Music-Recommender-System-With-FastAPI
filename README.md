@@ -6,7 +6,7 @@
     <img src="Images/logo.webp" alt="Logo" width="250" height="250">
   </a>
 
-<h3 align="center">Music Recommender System With FastAPI</h3>
+<h1 align="center">Music Recommender System With FastAPI</h1>
 </div>
 
 <summary>Table of Contents</summary>
