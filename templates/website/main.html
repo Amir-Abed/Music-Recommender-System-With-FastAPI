@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for('static', path='/styles.css')}}">
+</head>
+<body>
+    <div class="modal fade" id="musicModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="musicModalLabel">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="musicModalLabel">Recommended songs</h1>
+              <button type="button" class="close btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="show_recommend modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="close btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <h1 class="title text-center lh-base">AI Music Recommender</h1>
+    <h2 class="text-center lh-base">Choose the type of music</h2>
+
+    <div class="recommend container text-center">
+        <div class="row mb-5">
+        <div>
+        <div>
+            <audio controls>
+                <source src="{{url_for('static', path='Data/genres_original/blues/blues.00000.wav')}}" type="audio/mpeg">
+            </audio>
+        </div>
+        <div>
+            <audio controls>
+                <source src="{{url_for('static', path='Data/genres_original/classical/classical.00000.wav')}}" type="audio/mpeg">
+            </audio>
+        </div>
+      
+        <div>
+            <audio controls>
+                <source src="{{url_for('static', path='Data/genres_original/country/country.00017.wav')}}" type="audio/mpeg">
+            </audio>
+        </div>
+        <div>
+            <audio controls>
+                <source src="{{url_for('static', path='Data/genres_original/disco/disco.00000.wav')}}" type="audio/mpeg">
+            </audio>
+        </div>
+        <div>
+            <audio controls>
+                <source src="{{url_for('static', path='Data/genres_original/hiphop/hiphop.00001.wav')}}" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+    <div>
+        <div>
+            <audio controls>
+                <source src="{{url_for('static', path='Data/genres_original/jazz/jazz.00022.wav')}}" type="audio/mpeg">
+            </audio>
+        </div>
+        <div>
+            <audio controls>
+                <source src="{{url_for('static', path='Data/genres_original/metal/metal.00007.wav')}}" type="audio/mpeg">
+            </audio>
+        </div>
+        <div>
+            <audio controls>
+                <source src="{{url_for('static', path='Data/genres_original/pop/pop.00051.wav')}}" type="audio/mpeg">
+            </audio>
+        </div>
+        <div>
+            <audio controls>
+                <source src="{{url_for('static', path='Data/genres_original/reggae/reggae.00023.wav')}}" type="audio/mpeg">
+            </audio>
+        </div>
+        <div>
+            <audio controls>
+                <source src="{{url_for('static', path='Data/genres_original/rock/rock.00006.wav')}}" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="{{url_for('static', path='/app.js')}}"></script>
+</body>
+</html>
