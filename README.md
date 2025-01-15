@@ -1,11 +1,5 @@
 <a id="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![project_license][license-shield]][license-url]
-
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
@@ -13,21 +7,6 @@
   </a>
 
 <h3 align="center">Music Recommender System With FastAPI</h3>
-
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
-</div>
-
 
 <summary>Table of Contents</summary>
 <ol>
@@ -120,15 +99,3 @@ Modifications were made to:
 [MIT](LICENSE) © Amirreza Abedini
 
 Portions of this project are derived from [Work w/ Audio Data: Visualise, Classify, Recommend](https://www.kaggle.com/code/andradaolteanu/work-w-audio-data-visualise-classify-recommend) and are licensed under the [Apache 2.0](LICENSE) License. See <a href="#acknowledgments">Acknowledgments</a> for more info.
-
-[contributors-shield]: https://img.shields.io/github/contributors/Amir-Abed/Music-Recommender-System-With-FastAPI.svg?style=for-the-badge
-[contributors-url]: https://github.com/Amir-Abed/Music-Recommender-System-With-FastAPI/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Amir-Abed/Music-Recommender-System-With-FastAPI.svg?style=for-the-badge
-[forks-url]: https://github.com/Amir-Abed/Music-Recommender-System-With-FastAPI/network/members
-[stars-shield]: https://img.shields.io/github/stars/Amir-Abed/Music-Recommender-System-With-FastAPI.svg?style=for-the-badge
-[stars-url]: https://github.com/Amir-Abed/Music-Recommender-System-With-FastAPI/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Amir-Abed/Music-Recommender-System-With-FastAPI.svg?style=for-the-badge
-[issues-url]: https://github.com/Amir-Abed/Music-Recommender-System-With-FastAPI/issues
-[license-shield]: https://img.shields.io/github/license/Amir-Abed/Music-Recommender-System-With-FastAPI.svg?style=for-the-badge
-[license-url]: https://github.com/Amir-Abed/Music-Recommender-System-With-FastAPI/blob/master/LICENSE.txt
-[product-screenshot]: images/screenshot.png
