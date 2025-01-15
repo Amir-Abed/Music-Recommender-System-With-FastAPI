@@ -9,6 +9,7 @@
 <h1 align="center">Music Recommender System With FastAPI</h1>
 </div>
 
+<details open="open">
 <summary>Table of Contents</summary>
 <ol>
   <li>
@@ -36,6 +37,7 @@
   <li><a href="#acknowledgments">Acknowledgments</a></li>
   <li><a href="#license">License</a></li>
 </ol>
+</details>
 
 
 ## About The Project
