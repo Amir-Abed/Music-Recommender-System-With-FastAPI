@@ -7,6 +7,7 @@
   </a>
 
 <h3 align="center">Music Recommender System With FastAPI</h3>
+</div>
 
 <summary>Table of Contents</summary>
 <ol>
