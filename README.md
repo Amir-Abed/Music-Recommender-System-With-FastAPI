@@ -5,7 +5,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![project_license][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
 <div align="center">
@@ -122,16 +121,14 @@ Modifications were made to:
 
 Portions of this project are derived from [Work w/ Audio Data: Visualise, Classify, Recommend](https://www.kaggle.com/code/andradaolteanu/work-w-audio-data-visualise-classify-recommend) and are licensed under the [Apache 2.0](LICENSE) License. See <a href="#acknowledgments">Acknowledgments</a> for more info.
 
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/Amir-Abed/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[contributors-shield]: https://img.shields.io/github/contributors/Amir-Abed/Music-Recommender-System-With-FastAPI.svg?style=for-the-badge
+[contributors-url]: https://github.com/Amir-Abed/Music-Recommender-System-With-FastAPI/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Amir-Abed/Music-Recommender-System-With-FastAPI.svg?style=for-the-badge
+[forks-url]: https://github.com/Amir-Abed/Music-Recommender-System-With-FastAPI/network/members
+[stars-shield]: https://img.shields.io/github/stars/Amir-Abed/Music-Recommender-System-With-FastAPI.svg?style=for-the-badge
+[stars-url]: https://github.com/Amir-Abed/Music-Recommender-System-With-FastAPI/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Amir-Abed/Music-Recommender-System-With-FastAPI.svg?style=for-the-badge
+[issues-url]: https://github.com/Amir-Abed/Music-Recommender-System-With-FastAPI/issues
+[license-shield]: https://img.shields.io/github/license/Amir-Abed/Music-Recommender-System-With-FastAPI.svg?style=for-the-badge
+[license-url]: https://github.com/Amir-Abed/Music-Recommender-System-With-FastAPI/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
