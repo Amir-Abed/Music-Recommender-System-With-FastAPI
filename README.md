@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.webp" alt="Logo" width="250" height="250">
+    <img src="Images/logo.webp" alt="Logo" width="250" height="250">
   </a>
 
 <h3 align="center">Music Recommender System With FastAPI</h3>
