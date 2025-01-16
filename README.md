@@ -77,13 +77,18 @@ git clone https://github.com/Amir-Abed/Music-Recommender-System-With-FastAPI.git
 ```
 
 ### Prerequisites
-Firstly install the required libraries with the following command :
+1- Firstly install the required libraries with the following command in command line :
 
 ```sh 
 pip install -r requirements.txt 
 ```
 Ensure that all files necessary for ```pip install``` are kept in the root directory.
 
+2- Then download the rquired dataset with this command in command line :
+
+```sh
+python dataset_utils/dataset_download.py
+```
 ### How To Run
 Run the project with this command:
 
