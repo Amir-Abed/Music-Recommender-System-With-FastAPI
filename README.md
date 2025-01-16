@@ -1,35 +1,15 @@
 <a id="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![project_license][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.webp" alt="Logo" width="250" height="250">
+    <img src="Images/logo.webp" alt="Logo" width="250" height="250">
   </a>
 
-<h3 align="center">Music Recommender System With FastAPI</h3>
-
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
+<h1 align="center">Music Recommender System With FastAPI</h1>
 </div>
 
-
+<details open="open">
 <summary>Table of Contents</summary>
 <ol>
   <li>
@@ -57,6 +37,7 @@
   <li><a href="#acknowledgments">Acknowledgments</a></li>
   <li><a href="#license">License</a></li>
 </ol>
+</details>
 
 
 ## About The Project
@@ -126,17 +107,3 @@ Modifications were made to:
 [MIT](LICENSE) © Amirreza Abedini
 
 Portions of this project are derived from [Work w/ Audio Data: Visualise, Classify, Recommend](https://www.kaggle.com/code/andradaolteanu/work-w-audio-data-visualise-classify-recommend) and are licensed under the [Apache 2.0](LICENSE) License. See <a href="#acknowledgments">Acknowledgments</a> for more info.
-
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/Amir-Abed/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
