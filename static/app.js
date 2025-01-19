@@ -24,23 +24,23 @@ function show_recommendations(original_song, recommended_songs, labels){
   recommendation_modal[0].innerHTML = `
            <h5 class = "mb-3">Song you chose</h5>
            <audio controls>
-                <source src="static/Data/genres_original/${labels[original_song]}/${original_song}" type="audio/mpeg">
+                <source src="static/dataset/Data/genres_original/${labels[original_song]}/${original_song}" type="audio/mpeg">
             </audio>
             <h5 class = "mb-3">Recommendations</h5>
             <audio controls>
-                <source src="static/Data/genres_original/${labels[user_recommended_songs[0]]}/${user_recommended_songs[0]}" type="audio/mpeg">
+                <source src="static/dataset/Data/genres_original/${labels[user_recommended_songs[0]]}/${user_recommended_songs[0]}" type="audio/mpeg">
             </audio>
             <audio controls>
-                <source src="static/Data/genres_original/${labels[user_recommended_songs[1]]}/${user_recommended_songs[1]}" type="audio/mpeg">
+                <source src="static/dataset/Data/genres_original/${labels[user_recommended_songs[1]]}/${user_recommended_songs[1]}" type="audio/mpeg">
             </audio>
             <audio controls>
-                <source src="static/Data/genres_original/${labels[user_recommended_songs[2]]}/${user_recommended_songs[2]}" type="audio/mpeg">
+                <source src="static/dataset/Data/genres_original/${labels[user_recommended_songs[2]]}/${user_recommended_songs[2]}" type="audio/mpeg">
             </audio>
             <audio controls>
-                <source src="static/Data/genres_original/${labels[user_recommended_songs[3]]}/${user_recommended_songs[3]}" type="audio/mpeg">
+                <source src="static/dataset/Data/genres_original/${labels[user_recommended_songs[3]]}/${user_recommended_songs[3]}" type="audio/mpeg">
             </audio>
             <audio controls>
-                <source src="static/Data/genres_original/${labels[user_recommended_songs[4]]}/${user_recommended_songs[4]}" type="audio/mpeg">
+                <source src="static/dataset/Data/genres_original/${labels[user_recommended_songs[4]]}/${user_recommended_songs[4]}" type="audio/mpeg">
             </audio>
   `
 }

@@ -21,8 +21,8 @@
   <li>
     <a href="#getting-started">Getting Started</a>
     <ul>
+      <li><a href="#clone-the-repository">Clone the repository</a></li>
       <li><a href="#prerequisites">Prerequisites</a></li>
-      <li><a href="#installation">Installation</a></li>
       <li><a href="#how-to-run">How to run</a></li>
     </ul>
   </li>
@@ -50,22 +50,22 @@ This dataset, consists of 100 tracks containing 10 different music genres, along
 
 ## Getting Started
 
-### Installation
-Clone the repo
+### Clone the repository
+clone the repo with this command in command line :
 
 ```sh
 git clone https://github.com/Amir-Abed/Music-Recommender-System-With-FastAPI.git
 ```
 
 ### Prerequisites
-1- Firstly install the required libraries with the following command in command line :
+1- Firstly install the required libraries with the following command :
 
 ```sh 
 pip install -r requirements.txt 
 ```
 Ensure that all files necessary for ```pip install``` are kept in the root directory.
 
-2- Then download the rquired dataset with this command in command line :
+2- Then download the rquired dataset with this command :
 
 ```sh
 python dataset_utils/dataset_download.py
@@ -74,7 +74,7 @@ python dataset_utils/dataset_download.py
 Run the project with this command:
 
 ```sh
-fastapi dev main.py
+fastapi dev model/main.py
 ```
 
 ## Usage
