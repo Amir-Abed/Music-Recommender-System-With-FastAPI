@@ -65,14 +65,12 @@ pip install -r requirements.txt
 ```
 Ensure that all files necessary for ```pip install``` are kept in the root directory.
 
-2- Then download the rquired dataset with this command :
-
-```sh
-python dataset_utils/dataset_download.py
-```
-If you are having problem downloading the dataset refer to <a href="https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification">this link</a> to download it manually, then rename the zip file to ```gtzan-dataset-music-genre-classification.zip```. Afterwards make a directory in folder ```satic``` and name it ```dataset``` and extract all content of ```gtzan-dataset-music-genre-classification.zip``` in ```dataset```.
-
-Now you can proceed to <a href="#how-to-run">How to run</a>.
+2- Then download the rquired dataset by following these steps:
+1. Refer to <a href="https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification">this link</a> to download it manually.
+2. Rename the downloded zip file to ```gtzan-dataset-music-genre-classification.zip```.
+3. Create a directory inside the ```satic``` folder and name it ```dataset```. 
+4. Extract all contents of ```gtzan-dataset-music-genre-classification.zip``` in to ```dataset``` folder.
+5. That's it! Now you can proceed to the <a href="#how-to-run">How to run</a> section.
 
 ### How To Run
 Run the project with this command:
