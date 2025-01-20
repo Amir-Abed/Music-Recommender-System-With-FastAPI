@@ -81,7 +81,20 @@ fastapi dev model/main.py
 ## Usage
 
 ### Code Guide
-The file showcase.ipynb provides an explanation and visualization of the code line by line to help understand how the implementation works. Additional methods, including Euclidean distance and Manhattan distance are used in this file to compare their performance with Cosine similarity and to help fammilarize with how they are implemented.
+#### showcase.ipynb file
+The file ```showcase.ipynb``` in ```Music-Recommender-System-With-FastAPI/model``` directory provides an explanation and visualization of the code line by line to help understand how the implementation works. Additional methods, including Euclidean distance and Manhattan distance are used in this file to compare their performance with Cosine similarity and to help fammilarize with how they are implemented.
+
+#### recommender.py file
+Basically ```recommender.py``` file in ```Music-Recommender-System-With-FastAPI/model``` directory is the same as ```showcase.ipynb```, but it is used specifically for running the project and only utilizes the best performing method which is Cosine Similarity.
+
+#### main.py file
+This file, which is also in the same directory as above files, is used for initializing FastAPI 
+and handling ```GET``` and ```POST``` requests.
+
+#### app.js file
+```app.js``` file is located in ```Music-Recommender-System-With-FastAPI/static``` directory and it adds functionality to the ```main.html``` file when you lunch the web app. In combination with FastAPI, it waits for an input from user, which is a click on one of the songs listed on the web app. When a song is clicked, it sends its data over to ```main.py``` file with a ```POST``` request. This allows the ```main.py``` file to pass this data to an imported function from ```recommender.py```. ```app.js``` also fetches music data from ```recommender.py``` file for displaying music names and genres.
+
+For detailed instructions and code explanations refer to the comments within each file.
 
 ### Result
 After running the command in <a href="#how-to-run">How to run</a>, a webpage will open. Then you can check the performance of our model. Just select a song from the list to get recommedations, similar to that song :
