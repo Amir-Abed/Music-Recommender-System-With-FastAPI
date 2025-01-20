@@ -51,7 +51,7 @@ This dataset, consists of 100 tracks containing 10 different music genres, along
 ## Getting Started
 
 ### Clone the repository
-clone the repo with this command in command line :
+clone the repo using this command in your pereferred environment's command line:
 
 ```sh
 git clone https://github.com/Amir-Abed/Music-Recommender-System-With-FastAPI.git
@@ -67,10 +67,9 @@ Ensure that all files necessary for ```pip install``` are kept in the root direc
 
 2- Then download the rquired dataset by following these steps:
 1. Refer to <a href="https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification">this link</a> to download it manually.
-2. Rename the downloded zip file to ```gtzan-dataset-music-genre-classification.zip```.
-3. Create a directory inside the ```satic``` folder and name it ```dataset```. 
-4. Extract all contents of ```gtzan-dataset-music-genre-classification.zip``` in to ```dataset``` folder.
-5. That's it! Now you can proceed to the <a href="#how-to-run">How to run</a> section.
+2. Create a folder inside the ```Music-Recommender-System-With-FastAPI/satic``` directory and name it ```dataset```. 
+3. Extract all contents of downloaded zip file. Open the extracted folder and move ```Data``` folder in to ```dataset``` folder.
+4. That's it! Now you can proceed to the <a href="#how-to-run">How to run</a> section.
 
 ### How To Run
 Run the project with this command:
